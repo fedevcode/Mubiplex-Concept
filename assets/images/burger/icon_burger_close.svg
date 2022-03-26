@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon_burger_close" transform="translate(-342 -17)">
+    <rect id="icon_zone" width="48" height="48" transform="translate(342 17)" fill="#fff" opacity="0"/>
+    <path id="icon_burger" d="M-12367-1685v-10h-10a2,2,0,0,1-2-2,2,2,0,0,1,2-2h10v-10a2,2,0,0,1,2-2,2,2,0,0,1,2,2v10h10a2,2,0,0,1,2,2,2,2,0,0,1-2,2h-10v10a2,2,0,0,1-2,2A2,2,0,0,1-12367-1685Z" transform="translate(7909.415 9984.336) rotate(45)" fill="#4f44fb"/>
+  </g>
+</svg>
