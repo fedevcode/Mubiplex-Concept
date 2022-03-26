@@ -1,0 +1,19 @@
+* {
+    font-family: $font-poppins;
+    font-size: map-get($font-size, '2');
+    font-weight: map-get($font-weight, '200');
+}
+
+@font-face {
+    font-family: 'Monument Extended';
+    src: url('../../fonts/MonumentExtended-Regular.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Monument UltraBold';
+    src: url('../../fonts/MonumentExtended-Ultrabold.otf');
+    font-style: normal;
+    font-weight: bold;
+  }

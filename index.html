@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:image" content="">
+        <meta property="og:description" content="">
+        <meta property="og:title" content="MubiPlex">
+        <meta name="description" content="">
+        <title>MubiPlex</title>
+        <!-- REMIX ICON -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <!-- MONUMENT FONT -->
+        <link href="http://fonts.cdnfonts.com/css/monument-extended?styles=28544" rel="stylesheet">
+        <!-- GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- CSS STLYES -->
+        <link rel='stylesheet' href='assets/css/style.css'>
+    </head>
+<body>
+
+  <!-- HEADER -->
+  <header id="inicio">
+    <!-- NAVBAR -->
+    <nav class="nav" id="nav">
+      <div class="nav__navbar-container">
+        <div class="nav__navbar-container--logo">
+            <a href="#inicio"><img src="assets/images/logo/logo_mubiplex.svg" alt=""></a>
+        </div>
+        <div class="nav__navbar-container--icono" id="icono">
+            <div class="burger burger-closed" id="burger"></div>
+        </div>
+        <div class="nav__navbar-container--enlaces isOpen" id="enlaces">
+            <a href="#inicio" id="menu" class="nav__navbar-container--enlaces--menu scroll inicio">Inicio</a>
+            <a href="#novedades" id="menu2" class="nav__navbar-container--enlaces--menu scroll novedades">Novedades</a>
+            <a href="#beneficios" id="menu3" class="nav__navbar-container--enlaces--menu scroll beneficios">Beneficios</a>
+            <a href="#planes" id="menu4" class="nav__navbar-container--enlaces--menu scroll planes">Planes</a>
+            <a href="#contratar" id="menu5" class="nav__navbar-container--enlaces--menu scroll contratar">Contratar</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="slider">
+      <div class="slider__content-slider" id="slider">
+        <div class="slider__content-slider--slides slider__content-slider--slides--one current" id="slides">
+          <div class="slider__content-slider--slides--content">
+            <div class="slider__content-slider--slides--label"><img src="assets/images/slider/labels/label_disney+.svg" alt="Disney + logo"><span>SERIES</span></div>
+            <h2 class="slider__content-slider--slides--title">Wanda Vision</h2>
+            <p class="slider__content-slider--slides--description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed Diam...</p>
+            <p class="slider__content-slider--slides--description-mobile">Lorem ipsum dolor sit amet, consetetur<br> sadipscing elitr, sed diam nonumy eirmod<br> tempor invidunt ut labore et dolore magna<br> aliquyam erat, sed Diam...</p>
+            <div class="slider__content-slider--slides--buttons">
+              <a href="https://www.google.com" class="slider__content-slider--slides--trailer" target="_blank"><i class="ri-play-circle-fill"></i>ver trailer</a>
+              <a href="#planes" class="slider__content-slider--slides--subscribe scroll"><i class="ri-coupon-fill"></i>suscribirse</a>
+            </div>
+          </div>
+        </div>
+        <div class="slider__content-slider--slides slider__content-slider--slides--two" id="slides">
+          <div class="slider__content-slider--slides--content">
+            <div class="slider__content-slider--slides--label"><img src="assets/images/slider/labels/label_netflix.svg" alt="Netflix logo"><span>PELÍCULAS</span></div>
+            <h2 class="slider__content-slider--slides--title">Mortal Kombat</h2>
+            <p class="slider__content-slider--slides--description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed Diam...</p>
+            <p class="slider__content-slider--slides--description-mobile">Lorem ipsum dolor sit amet, consetetur<br> sadipscing elitr, sed diam nonumy eirmod<br> tempor invidunt ut labore et dolore magna<br> aliquyam erat, sed Diam...</p>
+            <div class="slider__content-slider--slides--buttons">
+              <a href="https://www.google.com" class="slider__content-slider--slides--trailer" target="_blank"><i class="ri-play-circle-fill"></i>ver trailer</a>
+              <a href="#planes" class="slider__content-slider--slides--subscribe scroll"><i class="ri-coupon-fill"></i>suscribirse</a>
+            </div>
+          </div>
+        </div>
+      <div class="slider__content-slider--slides slider__content-slider--slides--three slidelast" id="slides">
+        <div class="slider__content-slider--slides--content">
+          <div class="slider__content-slider--slides--label"><img src="assets/images/slider/labels/label_hbomax.svg" alt="HBOMax logo"><span>SERIES</span></div>
+          <h2 class="slider__content-slider--slides--title-3">Lovecraft Country</h2>
+          <p class="slider__content-slider--slides--description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed Diam...</p>
+          <p class="slider__content-slider--slides--description-mobile">Lorem ipsum dolor sit amet, consetetur<br> sadipscing elitr, sed diam nonumy eirmod<br> tempor invidunt ut labore et dolore magna<br> aliquyam erat, sed Diam...</p>
+          <div class="slider__content-slider--slides--buttons">
+            <a href="https://www.google.com" class="slider__content-slider--slides--trailer" target="_blank"><i class="ri-play-circle-fill"></i>ver trailer</a>
+            <a href="#planes" class="slider__content-slider--slides--subscribe scroll"><i class="ri-coupon-fill"></i>suscribirse</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="slider__content-slider--bottom">
+        <div class="slider__content-slider--bottom--social">
+          <a href="https://www.google.com" target="_blank"><i class="ri-facebook-box-fill"></i></a>
+          <a href="https://www.google.com" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+          <a href="https://www.google.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+        </div>
+
+        <div class="slider__content-slider--bottom--mouse">
+          <span></span>
+        </div>
+
+        <div class="slider__content-slider--bottom--buttons">
+          <div>
+            <i class="ri-arrow-left-line slider__content-slider--bottom--prev" id="prev"></i>
+          </div>
+          <div>
+            <i class="ri-arrow-right-line slider__content-slider--bottom--next" id="next"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- MAIN -->
+  <main>
+  <!-- NOVELTY -->
+    <section id="novedades">
+      <div class="novelty">
+        <div class="novelty__card-one">
+          <div class="novelty__card-one--content">
+            <h2 class="novelty__card-one--content--title">Películas en estreno</h2>
+            <a class="novelty__card-one--content--see-more">Ver más<i class="ri-arrow-right-line"></i></a> <!-- FALTA URL -->
+          </div>
+
+          <div class="moviePremiere-container">
+            <div class="moviePremiere-container__items">
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--one"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item
+              moviePremiere-container__items--item--two"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item
+              moviePremiere-container__items--item--three"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--four"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--five"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--six"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--seven"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--eight"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="moviePremiere-container__items--item moviePremiere-container__items--item--nine"><span class="moviePremiere-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="novelty__card-two">
+          <div class="novelty__card-two--content">
+            <h2 class="novelty__card-two--content--title">Series</h2>
+            <a href="#" class="novelty__card-two--content--see-more">Ver más<i class="ri-arrow-right-line"></i></a>
+          </div>
+
+          <div class="seriesA-container">
+            <div class="seriesA-container__items">
+              <a class="seriesA-container__items--item seriesA-container__items--item--one"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item
+              seriesA-container__items--item--two"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item
+              seriesA-container__items--item--three"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item seriesA-container__items--item--four"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item seriesA-container__items--item--five"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item seriesA-container__items--item--six"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item seriesA-container__items--item--seven"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item seriesA-container__items--item--eight"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="seriesA-container__items--item seriesA-container__items--item--nine"><span class="seriesA-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="novelty__card-three">
+          <div class="novelty__card-three--content">
+            <h2 class="novelty__card-three--content--title">Para compartir en familia</h2>
+            <a href="#" class="novelty__card-three--content--see-more">Ver más<i class="ri-arrow-right-line"></i></a>
+          </div>
+
+          <div class="family-container">
+            <div class="family-container__items">
+              <a class="family-container__items--item family-container__items--item--one"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item
+              family-container__items--item--two"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item
+              family-container__items--item--three"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item family-container__items--item--four"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item family-container__items--item--five"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item family-container__items--item--six"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item family-container__items--item--seven"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item family-container__items--item--eight"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+              <a class="family-container__items--item family-container__items--item--nine"><span class="family-container__items--item--watchIcon"><i class="ri-eye-fill"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- BENEFITS -->
+    <!-- PLATAFORMAS -->
+    <section id="beneficios">
+      <div class="platform">
+        <div class="platform__content">
+          <div class="platform__content--texts">
+            <div class="platform__content--texts--title">
+              <p>Las mejores plataformas <br>en un solo lugar</p>
+            </div>
+            <div class="platform__content--texts--description">
+                <p>Para los que no quieren perderse nada, nosotros estamos aquí, vamos a ayudarte!</p>
+            </div>
+            <div class="platform__content--texts--description-mobile">
+              <p>Para los que no quieren perderse nada,<br> nosotros estamos aquí, vamos a ayudarte!</p>
+          </div>
+            <div class="platform__content--texts--content">
+              <div class="platform__content--texts--movies">
+                <p>Películas</p><h2><span>+</span>1000</h2>
+              </div>
+              <div class="platform__content--texts--series">
+                <p>Series</p><h2><span>+</span>500</h2>
+              </div>
+            </div>
+          </div>
+          <div class="platform__content--logos">
+            <div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--1st" src="assets/images/main/logos/logo_netflix.svg" alt="Netflix logo"></div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--2nd" src="assets/images/main/logos/logo_prime.svg" alt="Prime Video logo"></div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--3rd" src="assets/images/main/logos/logo_hulu.svg" alt="Hulu logo"></div>
+            </div>
+            <div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--4th" src="assets/images/main/logos/logo_disney.svg" alt="Disney + logo"></div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--5th" src="assets/images/main/logos/logo_paramount.svg" alt="Paramount logo"></div>
+            </div>
+            <div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--6th" src="assets/images/main/logos/logo_hbo.svg" alt="HBO Max logo"></div>
+              <div class="platform__content--logos--logo"><img class="platform__content--logos--logo--7th" src="assets/images/main/logos/logo_apple.svg" alt="Apple TV logo"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="benefits">
+        <div class="benefits__content">
+          <div class="benefits__content--card-one">
+            <div class="benefits__content--card-one--image"><img src="assets/images/main/benefits/mockup_01.png" alt=""></div>
+            <div class="benefits__content--card-one--image-m"><img src="assets/images/main/benefits/mockup_01_m.png" alt=""></div>
+            <div class="benefits__content--card-one--text"><h2>Tus pedidos<br> son ordenes.</h2>
+            <p>Si no lo ves en nuestra lista, podes hacernos tu pedido mensual y con gusto lo subiremos.</p></div>
+            <div class="benefits__content--card-one--text-m"><h2>Tus pedidos<br> son ordenes.</h2>
+            <p>Si no lo ves en nuestra lista, podes hacernos<br> tu pedido mensual y con gusto lo subiremos.</p></div>
+          </div>
+          <div class="benefits__content--card-two">
+            <div class="benefits__content--card-two--text"><h2>Donde sea que estes <br>En el lugar que quieras.</h2>
+            <p>Nuestros servicios se encuentran en multiples dispositivos complatibles, en tu celular, consola, computadora, donde quieras podes disfrutar de nuestro contenido</p></div>
+            <div class="benefits__content--card-two--text-m"><h2>Donde sea que estes <br>En el lugar que quieras.</h2>
+            <p>Nuestros servicios se encuentran en multiples<br> dispositivos complatibles, en tu celular,<br> consola, computadora, donde quieras podes<br> disfrutar de nuestro contenido</p></div>
+            <div class="benefits__content--card-two--image"><img src="assets/images/main/benefits/mockup_02.png" alt=""></div>
+            <div class="benefits__content--card-two--image-m"><img src="assets/images/main/benefits/mockup_02_m.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  <!-- PLANS -->
+    <section id="planes">
+      <div class="plans" id="contratar">
+        <div class="plans__content">
+          <div class="plans__content--title"><h2>Planes y Precios</h2></div>
+          <div class="plans__content--subtitle"><p>Elegí el que mejor se adecue a tus necesidades.</p></div>
+
+          <div class="plans__content--plans">
+            <div class="plans__content--initial" id="initialPlan"><a href="https://www.google.com.ar" target="_blank">
+              <div class="plans__content--box">
+                <h2 class="plans__content--initial--title">Plan inicial</h2>
+                <p class="plans__content--initial--price">$350 <span class="plans__content--initial--duration">/ mes</span></p>
+                <p class="plans__content--initial--description">Para los que quieren disfrutar del buen entretenimiento sin mas complicaciones.</p>
+                <div class="plans__content--initial--benefits">
+                  <p><i class="ri-checkbox-circle-fill"></i>30 días de servicio</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>2 streamings simultáneos</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Más de 500 películas HD</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Más de 650 series y novelas</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>1 Petición por mes</p>
+                </div>
+                <button class="plans__content--initial--select" id="buttonPlan"><a href="#" target="_blank">Seleccionar Plan</a></button> <!-- FALTA URL -->
+              </div>
+            </a>
+            </div>
+
+            <div class="plans__content--basic" id="basicPlan"><a href="https://www.google.com.ar" target="_blank">
+              <div class="plans__content--box">
+                <h2 class="plans__content--initial--title">Plan básico</h2>
+                <p class="plans__content--initial--price">$900 <span class="plans__content--initial--duration">/ trimestral</span></p>
+                <p class="plans__content--initial--description">Para los que quieren disfrutar del buen entretenimiento sin mas complicaciones.</p>
+                <div class="plans__content--initial--benefits">
+                  <p><i class="ri-checkbox-circle-fill"></i>90 días de servicio</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>2 streamings simultáneos</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Más de 500 películas HD y 4K</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Más de 650 series y novelas</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>3 Peticiones por mes</p>
+                </div>
+                <button class="plans__content--initial--select" id="buttonBPlan"><a href="#" target="_blank">Seleccionar Plan</a></button> <!-- FALTA URL -->
+              </div>
+            </a>
+            </div>
+
+            <div class="plans__content--cinephile" id="cinephilePlan"><a href="https://www.google.com.ar" target="_blank">
+              <div class="plans__content--box">
+                <h2 class="plans__content--initial--title">Plan cinéfilo</h2>
+                <p class="plans__content--initial--price">$1500 <span class="plans__content--initial--duration">/ anual</span></p>
+                <p class="plans__content--initial--description">Para los que quieren disfrutar del buen entretenimiento sin mas complicaciones.</p>
+                <div class="plans__content--initial--benefits">
+                  <p><i class="ri-checkbox-circle-fill"></i>365 días de servicio</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>2 streamings simultáneos</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Más de 500 películas HD y 4K</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Más de 650 series y novelas</p>
+                  <p><i class="ri-checkbox-circle-fill"></i>Peticiones ilimitadas</p>
+                </div>
+                <button class="plans__content--initial--select" id="buttonCPlan"><a href="#" target="_blank">Seleccionar Plan</a></button> <!-- FALTA URL -->
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  <!-- FREQUENT QUESTIONS -->
+    <section>
+      <div class="accordion">
+        <h2>Preguntas frecuentes</h2>
+        <div class="accordion__container">
+          <div>
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>01.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Cuántos dispositivos disponibles tengo?</h3></div>
+                <div class="accordion__container--block--title--icon" id="accordionIcon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>02.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Activan por correo o por código?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>03.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Qué velocidad de Internet requiero?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>04.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Existen devoluciones?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>05.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Puedo pedir una película?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="spacing">
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>06.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Qué dispositivos son compatibles?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>07.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Dan demo?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>08.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Qué métodos de pago tienen?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>09.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Qué canales y películas tiene el servicio?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+
+            <div class="accordion__container--block">
+              <div class="accordion__container--block--title">
+                <div class="accordion__container--block--title--number"><p>10.</p></div>
+                <div class="accordion__container--block--title--question"><h3>¿Puedo pedir una película?</h3></div>
+                <div class="accordion__container--block--title--icon"><i class="ri-arrow-down-s-line"></i></div>
+              </div>
+              <p class="accordion__container--block--hidden-text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <section>
+      <div class="footer">
+        <div class="footer__desktop">
+          <h2>MubiCity <span>
+            © 2021 Mubicity. All rights reserved.
+          </span></h2>
+        </div>
+        <div class="footer__mobile">
+          <h2>MubiCity </h2>
+          <span>
+            © 2021 Mubicity. All rights reserved.
+          </span>
+          <div>
+            <a href="#"><i class="ri-facebook-box-fill"></i></a> <!-- FALTA URL -->
+            <a href="#"><i class="ri-whatsapp-fill"></i></a> <!-- FALTA URL -->
+            <a href="#"><i class="ri-instagram-fill"></i></a> <!-- FALTA URL -->
+          </div>
+        </div>
+        <div class="footer__social">
+            <a href="#"><i class="ri-facebook-box-fill"></i></a> <!-- FALTA URL -->
+            <a href="#"><i class="ri-whatsapp-fill"></i></a> <!-- FALTA URL -->
+            <a href="#"><i class="ri-instagram-fill"></i></a> <!-- FALTA URL -->
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- SCRIPTS -->
+    <!-- GENERAL SCRIPT -->
+    <script src="assets/js/app.js"></script>
+    <!-- SLIDER SCRIPT  -->
+    <script src="assets/js/slider.js"></script>
+    <script src="assets/js/sliderMoviesPremiere.js"></script>
+    <script src="assets/js/sliderSeriesA.js"></script>
+    <script src="assets/js/sliderFamily.js"></script>
+    <!-- PAGE SCROLL SCRIPT -->
+    <script src="assets/js/page-scroll.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <!-- SMOOTH SCROLL SCRIPT -->
+    <script src="assets/js/smoothscroll.js"></script>
+    <!-- NAVBAR CHANGE COLORS SCRIPT -->
+    <script src="assets/js/navchangecolor.js"></script>
+</body>
+</html>
