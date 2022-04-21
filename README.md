@@ -1,20 +1,20 @@
 <!-- MUBIPLEX LOGO -->
 <br />
 <div align="center" id="top">
-  <a href="">
+  <a href="http://mubiplex.fedevcode.com/" target="_blank">
     <img src="assets/images/logo/logo_mubiplex.svg" alt="Logo Mubiplex">
   </a>
 
   <h3 align="center">Mubiplex Concepto</h3>
   <p align="center">
-    <a href="http://mubiplex.fedevcode.com/">Ir a la Web</a>
+    <a href="http://mubiplex.fedevcode.com/" target="_blank">Ir a la Web</a>
   </p>
 </div>
 
 <!-- PROJECT PREVIEW -->
 ## Previsualización
 
-<a href="http://mubiplex.fedevcode.com/"><img src="assets/images/logo/mubiplex_cover.png" alt="Preview mubiplex concept" width="300" height="300"></a> <br><br><br>
+<a href="http://mubiplex.fedevcode.com/" target="_blank"><img src="assets/images/logo/mubiplex_cover.png" alt="Preview mubiplex concept" width="300" height="300"></a> <br><br><br>
 
 
 <!-- CREATED WITH -->
@@ -30,7 +30,7 @@
 <!-- CONTACT -->
 ## Contacto
 
-* Fedevcode - [Todas mis redes](https://linktr.ee/fedevcode) <br>
+* Fedevcode - <a href="https://linktr.ee/fedevcode" target="_blank">Todas mis redes</a><br>
 * Email - info@fedevcode.com
 
 <p align="right"><a href="#top">Volver arriba</a></p>
